@@ -124,10 +124,6 @@ footer .menu a:last-child {
     white-space: nowrap;
 }
 
-.spacer {
-    height: 2.5em;
-}
-
 .double-spacer {
     height: 5em;
 }
@@ -323,7 +319,7 @@ form .input-wrap {
 }
 
 .img-responsive {
-    float: left
+    /* float: left; */
 }
 
 @media screen and (max-width:320px) {
@@ -1072,7 +1068,7 @@ form .alterlink {
     font-size: 1.5em;
     font-weight: 700;
     margin: auto;
-    width: 70%;
+    width: 55%;
 }
 
 @media screen and (max-width:320px) {

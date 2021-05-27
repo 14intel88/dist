@@ -17,6 +17,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
+    max-width: 1268px;
+    margin: auto
 }
 
 body.dark {
@@ -92,7 +94,7 @@ header .logo {
 }
 
 .spacer {
-    height: 2.5em;
+    height: 0.5em;
 }
 
 .double-spacer {
@@ -788,8 +790,8 @@ h2 span {
 
 .stats-wrapper h1 {
     text-align: center;
-    margin: 1.5em 0 0.5em;
-    font-size: 1.8em;
+    margin: 1.3em 0 0.5em;
+    font-size: 1.3em;
     color: #3b3b3b;
 }
 
@@ -918,12 +920,12 @@ h2 span {
     padding: 12px 0 12px 20px;
     position: relative;
     font-weight: 700;
-    content: "\f0da";
+    content: "\21D3";
 }
 
 .question:before {
     display: block;
-    content: "\f0da";
+    content: "\21D3";
     font-family: FontAwesome;
     position: absolute;
     top: 12px;
