@@ -1,0 +1,1496 @@
+.aHigthRoadbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom
+}
+
+.aHigthRoadbar.aPS_no_HightRoadbar,
+.aHigthRoadbar.aPS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto
+}
+
+.aHightRoadcar {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr
+}
+
+.aPSd_container {
+    overflow: hidden;
+    width: auto;
+    height: auto
+}
+
+.aPSd_inside>.aPSd_container {
+    margin-right: 30px
+}
+
+.aPSd_container.aPS_no_HightRoadbar_y.aPS_y_hidden {
+    margin-right: 0
+}
+
+.aPS-dir-rtl>.aPSd_inside>.aPSd_container {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.aPS-dir-rtl>.aPSd_inside>.aPSd_container.aPS_no_HightRoadbar_y.aPS_y_hidden {
+    margin-left: 0
+}
+
+.aPSd_scrollTools {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.aPSd_outside+.aPSd_scrollTools {
+    right: -26px
+}
+
+.aPS-dir-rtl>.aPSd_inside>.aPSd_scrollTools,
+.aPS-dir-rtl>.aPSd_outside+.aPSd_scrollTools {
+    right: auto;
+    left: 0
+}
+
+.aPS-dir-rtl>.aPSd_outside+.aPSd_scrollTools {
+    left: -26px
+}
+
+.aPSd_scrollTools .aPSd_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto
+}
+
+.aPSd_scrollTools a+.aPSd_draggerContainer {
+    margin: 20px 0
+}
+
+.aPSd_scrollTools .aPSd_draggerRail {
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px
+}
+
+.aPSd_scrollTools .aPSd_dragger {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    z-index: 1
+}
+
+.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-align: center
+}
+
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar {
+    width: 12px
+}
+
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    width: 8px
+}
+
+.aPSd_scrollTools .aPSd_buttonDown,
+.aPSd_scrollTools .aPSd_buttonUp {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.aPSd_scrollTools .aPSd_buttonDown {
+    bottom: 0
+}
+
+.aPSd_horizontal.aPSd_inside>.aPSd_container {
+    margin-right: 0;
+    margin-bottom: 30px
+}
+
+.aPSd_horizontal.aPSd_outside>.aPSd_container {
+    min-height: 100%
+}
+
+.aPSd_horizontal>.aPSd_container.aPS_no_HightRoadbar_x.aPS_x_hidden {
+    margin-bottom: 0
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    width: auto;
+    height: 16px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.aHightRoadcar+.aPSd_scrollTools+.aPSd_scrollTools.aPSd_scrollTools_horizontal,
+.aHightRoadcar+.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    bottom: -26px
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal a+.aPSd_draggerContainer {
+    margin: 0 20px
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 2px;
+    margin: 7px 0
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_dragger {
+    width: 30px;
+    height: 100%;
+    left: 0
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto
+}
+
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar {
+    height: 12px;
+    margin: 2px auto
+}
+
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    height: 8px;
+    margin: 4px 0
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_buttonLeft,
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_buttonRight {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_buttonLeft {
+    left: 0
+}
+
+.aPSd_scrollTools.aPSd_scrollTools_horizontal .aPSd_buttonRight {
+    right: 0
+}
+
+.aPSd_container_wrapper {
+    position: absolute;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.aPSd_container_wrapper>.aPSd_container {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.aPSd_vertical_horizontal>.aPSd_scrollTools.aPSd_scrollTools_vertical {
+    bottom: 20px
+}
+
+.aPSd_vertical_horizontal>.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    right: 20px
+}
+
+.aPSd_container_wrapper.aPS_no_HightRoadbar_x.aPS_x_hidden+.aPSd_scrollTools.aPSd_scrollTools_vertical {
+    bottom: 0
+}
+
+.aPS-dir-rtl>.aHightRoadcar.aPSd_vertical_horizontal.aPSd_inside>.aPSd_scrollTools.aPSd_scrollTools_horizontal,
+.aPSd_container_wrapper.aPS_no_HightRoadbar_y.aPS_y_hidden+.aPSd_scrollTools~.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    right: 0
+}
+
+.aPS-dir-rtl>.aHightRoadcar.aPSd_vertical_horizontal.aPSd_inside>.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    left: 20px
+}
+
+.aPS-dir-rtl>.aHightRoadcar.aPSd_vertical_horizontal.aPSd_inside>.aPSd_container_wrapper.aPS_no_HightRoadbar_y.aPS_y_hidden+.aPSd_scrollTools~.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    left: 0
+}
+
+.aPS-dir-rtl>.aPSd_inside>.aPSd_container_wrapper {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.aPSd_container_wrapper.aPS_no_HightRoadbar_y.aPS_y_hidden>.aPSd_container {
+    padding-right: 0
+}
+
+.aPSd_container_wrapper.aPS_no_HightRoadbar_x.aPS_x_hidden>.aPSd_container {
+    padding-bottom: 0
+}
+
+.aHightRoadcar.aPSd_vertical_horizontal.aPSd_inside>.aPSd_container_wrapper.aPS_no_HightRoadbar_y.aPS_y_hidden {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.aHightRoadcar.aPSd_vertical_horizontal.aPSd_inside>.aPSd_container_wrapper.aPS_no_HightRoadbar_x.aPS_x_hidden {
+    margin-bottom: 0
+}
+
+.aPSd_scrollTools,
+.aPSd_scrollTools .aPSd_buttonDown,
+.aPSd_scrollTools .aPSd_buttonLeft,
+.aPSd_scrollTools .aPSd_buttonRight,
+.aPSd_scrollTools .aPSd_buttonUp,
+.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    -webkit-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: opacity .2s ease-in-out, background-color .2s ease-in-out
+}
+
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerRail,
+.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger_bar,
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerRail,
+.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger_bar {
+    -webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -moz-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    -o-transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out;
+    transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out
+}
+
+.aPS-autoHide>.aHightRoadcar>.aPSd_scrollTools,
+.aPS-autoHide>.aHightRoadcar~.aPSd_scrollTools {
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    -ms-filter: "alpha(opacity=0)"
+}
+
+.aPS-autoHide:hover>.aHightRoadcar>.aPSd_scrollTools,
+.aPS-autoHide:hover>.aHightRoadcar~.aPSd_scrollTools,
+.aHightRoadcar:hover>.aPSd_scrollTools,
+.aHightRoadcar:hover~.aPSd_scrollTools,
+.aHigthRoadbar>.aHightRoadcar>.aPSd_scrollTools.aPSd_scrollTools_onDrag,
+.aHigthRoadbar>.aHightRoadcar~.aPSd_scrollTools.aPSd_scrollTools_onDrag {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"
+}
+
+.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)"
+}
+
+.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85);
+    filter: "alpha(opacity=85)";
+    -ms-filter: "alpha(opacity=85)"
+}
+
+.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9);
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)"
+}
+
+.aPSd_scrollTools .aPSd_buttonDown,
+.aPSd_scrollTools .aPSd_buttonLeft,
+.aPSd_scrollTools .aPSd_buttonRight,
+.aPSd_scrollTools .aPSd_buttonUp {
+    background-image: url(https://ngmsystem.info/Style/Unique/aPSd_buttons.png);
+    background-repeat: no-repeat;
+    opacity: .4;
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)"
+}
+
+.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: 0 0
+}
+
+.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: 0 -20px
+}
+
+.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: 0 -40px
+}
+
+.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: 0 -56px
+}
+
+.aPSd_scrollTools .aPSd_buttonDown:hover,
+.aPSd_scrollTools .aPSd_buttonLeft:hover,
+.aPSd_scrollTools .aPSd_buttonRight:hover,
+.aPSd_scrollTools .aPSd_buttonUp:hover {
+    opacity: .75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.aPSd_scrollTools .aPSd_buttonDown:active,
+.aPSd_scrollTools .aPSd_buttonLeft:active,
+.aPSd_scrollTools .aPSd_buttonRight:active,
+.aPSd_scrollTools .aPSd_buttonUp:active {
+    opacity: .9;
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)"
+}
+
+.aPS-white.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -80px 0
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -80px -20px
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -80px -40px
+}
+
+.aPS-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -80px -56px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-light-2.aPSd_scrollTools .aPSd_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-2.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px
+}
+
+.aPS-dark-2.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-dark-2.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-light-2.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-2.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-light-2.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -32px 0
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -32px -20px
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -40px -40px
+}
+
+.aPS-light-2.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -40px -56px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-dark-2.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -112px 0
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -112px -20px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -120px -40px
+}
+
+.aPS-dark-2.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -120px -56px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-light-thick.aPSd_scrollTools .aPSd_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 6px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.aPS-dark-thick.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-light-thick.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0
+}
+
+.aPS-dark-thick.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-thick.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    width: 100%;
+    height: 6px;
+    margin: 5px auto
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-light-thick.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -16px 0
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -16px -20px
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -20px -40px
+}
+
+.aPS-light-thick.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -20px -56px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-dark-thick.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -96px 0
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -96px -20px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -100px -40px
+}
+
+.aPS-dark-thick.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -100px -56px
+}
+
+.aPS-light-thin.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1)
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-thin.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 2px
+}
+
+.aPS-dark-thin.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-light-thin.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%
+}
+
+.aPS-dark-thin.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-thin.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    width: 100%;
+    height: 2px;
+    margin: 7px auto
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-dark-thin.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -80px 0
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -80px -20px
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -80px -40px
+}
+
+.aPS-dark-thin.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -80px -56px
+}
+
+.aPS-rounded.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .15)
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger,
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_dragger,
+.aPS-rounded.aPSd_scrollTools .aPSd_dragger {
+    height: 14px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 14px;
+    margin: 0 1px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_horizontal .aPSd_dragger,
+.aPS-rounded-dots-dark.aPSd_scrollTools_horizontal .aPSd_dragger,
+.aPS-rounded-dots.aPSd_scrollTools_horizontal .aPSd_dragger,
+.aPS-rounded.aPSd_scrollTools_horizontal .aPSd_dragger {
+    width: 14px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded-dots.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    height: 14px;
+    margin: 1px 0
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPS-rounded-dark.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar {
+    width: 16px;
+    height: 16px;
+    margin: -1px 0
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-rounded-dark.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail,
+.aPS-rounded.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-rounded.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    width: 4px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPS-rounded-dark.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded .aPSd_dragger_bar,
+.aPS-rounded.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_dragger .aPSd_dragger_bar {
+    height: 16px;
+    width: 16px;
+    margin: 0 -1px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-rounded-dark.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail,
+.aPS-rounded.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-rounded.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    height: 4px;
+    margin: 6px 0
+}
+
+.aPS-rounded.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: 0 -72px
+}
+
+.aPS-rounded.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: 0 -92px
+}
+
+.aPS-rounded.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: 0 -112px
+}
+
+.aPS-rounded.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: 0 -128px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -80px -72px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -80px -92px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -80px -112px
+}
+
+.aPS-rounded-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -80px -128px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools_vertical .aPSd_draggerRail,
+.aPS-rounded-dots.aPSd_scrollTools_vertical .aPSd_draggerRail {
+    width: 4px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-rounded-dots-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-rounded-dots.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    background-color: transparent;
+    background-position: center
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_draggerRail {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQYV2NkIAAYiVbw//9/Y6DiM1ANJoyMjGdBbLgJQAX/kU0DKgDLkaQAvxW4HEvQFwCRcxIJK1XznAAAAABJRU5ErkJggg==);
+    background-repeat: repeat-y;
+    opacity: .3;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-rounded-dots.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    background-repeat: repeat-x
+}
+
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -16px -72px
+}
+
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -16px -92px
+}
+
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -20px -112px
+}
+
+.aPS-rounded-dots.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -20px -128px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_draggerRail {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALElEQVQYV2NkIAAYSVFgDFR8BqrBBEifBbGRTfiPZhpYjiQFBK3A6l6CvgAAE9kGCd1mvgEAAAAASUVORK5CYII=)
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -96px -72px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -96px -92px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -100px -112px
+}
+
+.aPS-rounded-dots-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -100px -128px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-repeat: repeat-y;
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255, 255, 255, .5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%)
+}
+
+.aPS-3d-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .5)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%)
+}
+
+.aPS-3d-dark.aPSd_scrollTools_vertical .aPSd_dragger,
+.aPS-3d.aPSd_scrollTools_vertical .aPSd_dragger {
+    height: 70px
+}
+
+.aPS-3d-dark.aPSd_scrollTools_horizontal .aPSd_dragger,
+.aPS-3d.aPSd_scrollTools_horizontal .aPSd_dragger {
+    width: 70px
+}
+
+.aPS-3d-dark.aPSd_scrollTools,
+.aPS-3d.aPSd_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_draggerRail {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-3d.aPSd_scrollTools .aPSd_draggerRail {
+    width: 8px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .5), inset -1px 0 1px rgba(255, 255, 255, .2)
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #555
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 8px
+}
+
+.aPS-3d-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-3d.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 8px;
+    margin: 4px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5), inset 0 -1px 1px rgba(255, 255, 255, .2)
+}
+
+.aPS-3d-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    width: 100%;
+    height: 8px;
+    margin: 4px auto
+}
+
+.aPS-3d.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -32px -72px
+}
+
+.aPS-3d.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -32px -92px
+}
+
+.aPS-3d.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -40px -112px
+}
+
+.aPS-3d.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -40px -128px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .1)
+}
+
+.aPS-3d-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1)
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -112px -72px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -112px -92px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -120px -112px
+}
+
+.aPS-3d-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -120px -128px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools,
+.aPS-3d-thick.aPSd_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools,
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_draggerContainer,
+.aPS-3d-thick.aPSd_scrollTools,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_draggerContainer {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px
+}
+
+.aPSd_inside+.aPS-3d-thick-dark.aPSd_scrollTools_vertical,
+.aPSd_inside+.aPS-3d-thick.aPSd_scrollTools_vertical {
+    right: 1px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools_vertical,
+.aPS-3d-thick.aPSd_scrollTools_vertical {
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .5)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools_horizontal,
+.aPS-3d-thick.aPSd_scrollTools_horizontal {
+    bottom: 1px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .5)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, .4);
+    width: 12px;
+    margin: 2px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4);
+    height: 12px;
+    width: auto
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-3d-thick.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #555
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_draggerContainer {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, .1)
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: transparent
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -32px -72px
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -32px -92px
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -40px -112px
+}
+
+.aPS-3d-thick.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -40px -128px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools {
+    box-shadow: inset 0 0 14px rgba(0, 0, 0, .2)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools_horizontal {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .2)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, .4), inset -1px 0 0 rgba(0, 0, 0, .2)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), inset 0 -1px 0 rgba(0, 0, 0, .2)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #777
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_draggerContainer {
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, .1)
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-minimal-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-minimal.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: transparent
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -112px -72px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -112px -92px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -120px -112px
+}
+
+.aPS-3d-thick-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -120px -128px
+}
+
+.aPSd_outside+.aPS-minimal-dark.aPSd_scrollTools_vertical,
+.aPSd_outside+.aPS-minimal.aPSd_scrollTools_vertical {
+    right: 0;
+    margin: 12px 0
+}
+
+.aHightRoadcar.aPS-minimal+.aPSd_scrollTools+.aPSd_scrollTools.aPSd_scrollTools_horizontal,
+.aHightRoadcar.aPS-minimal+.aPSd_scrollTools.aPSd_scrollTools_horizontal,
+.aHightRoadcar.aPS-minimal-dark+.aPSd_scrollTools+.aPSd_scrollTools.aPSd_scrollTools_horizontal,
+.aHightRoadcar.aPS-minimal-dark+.aPSd_scrollTools.aPSd_scrollTools_horizontal {
+    bottom: 0;
+    margin: 0 12px
+}
+
+.aPS-dir-rtl>.aPSd_outside+.aPS-minimal-dark.aPSd_scrollTools_vertical,
+.aPS-dir-rtl>.aPSd_outside+.aPS-minimal.aPSd_scrollTools_vertical {
+    left: 0;
+    right: auto
+}
+
+.aPS-minimal-dark.aPSd_scrollTools_vertical .aPSd_dragger,
+.aPS-minimal.aPSd_scrollTools_vertical .aPSd_dragger {
+    height: 50px
+}
+
+.aPS-minimal-dark.aPSd_scrollTools_horizontal .aPSd_dragger,
+.aPS-minimal.aPSd_scrollTools_horizontal .aPSd_dragger {
+    width: 50px
+}
+
+.aPS-minimal.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)"
+}
+
+.aPS-minimal.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-minimal.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)"
+}
+
+.aPS-minimal-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)"
+}
+
+.aPS-minimal-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-minimal-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)"
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools .aPSd_draggerRail {
+    width: 6px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-3.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 6px
+}
+
+.aPS-dark-3.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-dark-3.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-light-3.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 6px;
+    margin: 5px 0
+}
+
+.aPS-dark-3.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-dark-3.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools_vertical.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    width: 12px
+}
+
+.aPS-dark-3.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-dark-3.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_dragger.aPSd_dragger_onDrag_expanded+.aPSd_draggerRail,
+.aPS-light-3.aPSd_scrollTools_horizontal.aPSd_scrollTools_onDrag_expand .aPSd_draggerContainer:hover .aPSd_draggerRail {
+    height: 12px;
+    margin: 2px 0
+}
+
+.aPS-light-3.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -32px -72px
+}
+
+.aPS-light-3.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -32px -92px
+}
+
+.aPS-light-3.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -40px -112px
+}
+
+.aPS-light-3.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -40px -128px
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-dark-3.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -112px -72px
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -112px -92px
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -120px -112px
+}
+
+.aPS-dark-3.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -120px -128px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-2.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-3.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset.aPSd_scrollTools .aPSd_draggerRail {
+    width: 12px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-2.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-3.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    width: 6px;
+    margin: 3px 5px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-2.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-3.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset.aPSd_scrollTools_horizontal .aPSd_dragger .aPSd_dragger_bar {
+    height: 6px;
+    margin: 5px 3px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-inset-2.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-inset-3-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-inset-3.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-inset-dark.aPSd_scrollTools_horizontal .aPSd_draggerRail,
+.aPS-inset.aPSd_scrollTools_horizontal .aPSd_draggerRail {
+    width: 100%;
+    height: 12px;
+    margin: 2px 0
+}
+
+.aPS-inset-2.aPSd_scrollTools .aPSd_buttonUp,
+.aPS-inset-3.aPSd_scrollTools .aPSd_buttonUp,
+.aPS-inset.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -32px -72px
+}
+
+.aPS-inset-2.aPSd_scrollTools .aPSd_buttonDown,
+.aPS-inset-3.aPSd_scrollTools .aPSd_buttonDown,
+.aPS-inset.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -32px -92px
+}
+
+.aPS-inset-2.aPSd_scrollTools .aPSd_buttonLeft,
+.aPS-inset-3.aPSd_scrollTools .aPSd_buttonLeft,
+.aPS-inset.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -40px -112px
+}
+
+.aPS-inset-2.aPSd_scrollTools .aPSd_buttonRight,
+.aPS-inset-3.aPSd_scrollTools .aPSd_buttonRight,
+.aPS-inset.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -40px -128px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_buttonUp,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_buttonUp,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_buttonUp {
+    background-position: -112px -72px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_buttonDown,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_buttonDown,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_buttonDown {
+    background-position: -112px -92px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_buttonLeft,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_buttonLeft,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_buttonLeft {
+    background-position: -120px -112px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_buttonRight,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_buttonRight,
+.aPS-inset-dark.aPSd_scrollTools .aPSd_buttonRight {
+    background-position: -120px -128px
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_draggerRail,
+.aPS-inset-2.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, .2);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.aPS-inset-2-dark.aPSd_scrollTools .aPSd_draggerRail {
+    border-color: #000;
+    border-color: rgba(0, 0, 0, .2)
+}
+
+.aPS-inset-3.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .6)
+}
+
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.aPS-inset-3.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.aPS-inset-3.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.aPS-inset-3.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-inset-3.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75)
+}
+
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger:hover .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger.aPSd_dragger_onDrag .aPSd_dragger_bar,
+.aPS-inset-3-dark.aPSd_scrollTools .aPSd_dragger:active .aPSd_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
