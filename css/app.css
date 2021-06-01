@@ -8,7 +8,7 @@ body {
 }
 
 html {
-    background: #075c8b;
+    background: #075c8b url('../img/background.jpg') 50% 0% no-repeat;
     height: 100%;
 }
 
@@ -83,6 +83,20 @@ footer .menu a:last-child {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     line-height: 1.1;
+}
+
+.trusted {
+    width: 18%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.trusted img {
+    margin: 10px auto;
+}
+
+.secure {
+    margin: auto;
 }
 
 .larger .header {
@@ -261,7 +275,8 @@ input:not([type=checkbox]) {
     background-repeat: no-repeat!important;
     border: 1px solid #999;
     border-radius: 5px;
-    font-size: 16px
+    font-size: 16px;
+    text-align: center
 }
 
 button[type=submit] {
@@ -318,14 +333,16 @@ form .input-wrap {
     display: none
 }
 
-.img-responsive {
-    /* float: left; */
-}
-
 @media screen and (max-width:320px) {
     .img-responsive {
         margin: auto;
+        display: block;
     }
+}
+
+.img-responsive {
+    margin: auto;
+    display: block;
 }
 
 .checkbox-wrap {
@@ -1061,16 +1078,6 @@ form .alterlink {
     border: 0;
 }
 
-.acceleration {
-    padding: 0.2em 0;
-    text-align: center;
-    background: #ed2b30;
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: auto;
-    width: 55%;
-}
-
 @media screen and (max-width:320px) {
     form .input-wrap {
         width: 90%;
@@ -1086,10 +1093,10 @@ form .alterlink {
         font-size: 1.5em;
         font-weight: 700;
         margin: auto;
-        width: 100%;
+        width: 100%!important;
     }
     input:not([type=checkbox]) {
-        /* width: 90%; */
+        width: 90%;
         height: 35px;
         outline: none;
         position: relative;
@@ -1100,6 +1107,47 @@ form .alterlink {
         border-radius: 5px;
         font-size: 16px
     }
+}
+
+@media screen and (max-width:378px) {
+    form .input-wrap {
+        width: 90%;
+        position: relative;
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+    }
+    .acceleration {
+        padding: 0.2em 0;
+        text-align: center;
+        background: #ed2b30;
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: auto;
+        width: 100%!important;
+    }
+    input:not([type=checkbox]) {
+        width: 90%;
+        height: 35px;
+        outline: none;
+        position: relative;
+        z-index: 3;
+        background-position: 50% 50%;
+        background-repeat: no-repeat!important;
+        border: 1px solid #999;
+        border-radius: 5px;
+        font-size: 16px
+    }
+}
+
+.acceleration {
+    padding: 0.2em 0;
+    text-align: center;
+    background: #ed2b30;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: auto;
+    width: 60%;
 }
 
 .video {

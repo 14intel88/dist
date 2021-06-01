@@ -7,11 +7,6 @@ body {
     font-size: 16px;
 }
 
-html {
-    background: #075c8b;
-    height: 100%;
-}
-
 body {
     background: #075c8b url('../img/background.jpg') 50% 0% no-repeat;
     background-size: cover;
@@ -42,14 +37,6 @@ header {
     width: 100%
 }
 
-footer .container .row>div {
-    border-top: 1px solid #9cbacd;
-    font-size: 0.81em;
-    margin-top: 3.5em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-}
-
 footer .menu {
     float: right;
 }
@@ -68,6 +55,7 @@ header .logo {
     max-height: 100%;
     text-align: center;
     padding-bottom: 24px;
+    max-height: 60px;
 }
 
 .larger .header {
@@ -285,6 +273,17 @@ h2 span {
     background-size: contain;
 }
 
+.plus18 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: url('../img/plus-18.png');
+    width: 2em;
+    height: 2em;
+    background-size: contain;
+    z-index: 2000;
+}
+
 .box-wrapper:after {
     display: block;
     position: absolute;
@@ -335,6 +334,19 @@ h2 span {
     border: 0;
 }
 
+.box-wrapper:before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 3em;
+    content: '';
+    width: 100%;
+    max-width: 160px;
+    height: 164px;
+    background: url(../img/arr-f-l.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+
 .acceleration #slots {
     font-size: 1.2em;
     color: #ed2b30;
@@ -345,6 +357,24 @@ h2 span {
     min-width: 1.4em;
     text-align: center;
     display: inline-block;
+}
+
+@media screen and (min-width: 1200px) {
+    .plus18 {
+        width: 7em !important;
+        height: 7em !important;
+    }
+}
+
+.plus18 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: url(../img/plus-18.png);
+    width: 2em;
+    height: 2em;
+    background-size: contain;
+    z-index: 2000;
 }
 
 
@@ -433,16 +463,6 @@ h2 span {
 
 .modal-content .reg-form .phone {
     height: 42px;
-}
-
-.trusted {
-    width: 18%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.trusted img {
-    margin: 10px auto;
 }
 
 
@@ -1029,11 +1049,11 @@ h2 span {
     body {
         font-size: 14px;
     }
-    .logo {
+    /* .logo {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1em;
-    }
+    } */
     .header,
     .subheader {
         text-align: center;
@@ -1205,7 +1225,7 @@ h2 span {
     position: absolute;
     left: 10px;
     top: 10px;
-    background: url(Style/Pic/plus-18.png);
+    background: url(../img/plus-18.png);
     width: 2em;
     height: 2em;
     background-size: contain;
